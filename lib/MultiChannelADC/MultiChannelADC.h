@@ -89,10 +89,6 @@ public:
   int ADC_get_channel_value(const enum adc_channel adc_ch);
 };
 
-// void MultiChannelADC::ADC_set_filter_size(int size){
-//   buff_size = size;
-// }
-
 void MultiChannelADC::init() const
 {
   for (int i = 0; i < 8; i++)
